@@ -10,5 +10,6 @@ public class HelloWorld {
     System.out.print("Test 2 ");
     System.out.println("Test 3ln ");
     System.out.println("Test newline ");
+    System.out.println("Test newline ");
   }
 }
