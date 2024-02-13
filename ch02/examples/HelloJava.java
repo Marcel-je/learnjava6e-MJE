@@ -7,10 +7,13 @@ import javax.swing.*;
  */
 public class HelloJava {
   public static void main( String[] args ) {
-    JFrame frame = new JFrame( "Hello, Java!" );
+    JFrame framex = new JFrame( "Hello, Java!" );
     JLabel label = new JLabel("Hello, Java!", JLabel.CENTER );
-    frame.add(label);
-    frame.setSize( 300, 300 );
-    frame.setVisible( true );
+    framex.add(label);
+    framex.setSize( 500, 500 );
+    framex.setVisible( true );
+    framex.setLocation(500, 500);
+    framex.setLocation(1000, 100);
+
   }
 }
